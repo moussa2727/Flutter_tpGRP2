@@ -1,0 +1,58 @@
+# Flutter/Dart build artifacts
+build/
+.dart_tool/
+.packages
+.pub/
+.pub-cache/
+flutter_*.png
+.flutter-plugins
+.flutter-plugins-dependencies
+.melody_tool
+
+# Android
+android/.gradle/
+android/app/debug/
+android/app/profile/
+android/app/release/
+android/key.properties
+android/local.properties
+*.jks
+
+# iOS / macOS
+ios/Flutter/.last_build_id
+ios/Pods/
+ios/.symlinks/
+macos/Pods/
+macos/.symlinks/
+
+# Web
+web/.dart_tool/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs
+*.log
+
+# Coverage
+coverage/
+
+# Symbols
+app.*.symbols
+
+# Obfuscation
+app.*.map.json
+
+# Local env files
+.env
+.env.local
